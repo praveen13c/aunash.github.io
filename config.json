@@ -1,4 +1,4 @@
-{
+
   "params":
   {
     "local_server":"True",
@@ -10,6 +10,9 @@
     "yt_url" : "https://youtube.com/technologyvideonetwork",
     "blog_name" : "AUNASH",
     "sub_heading" : "An Ultimate Site for YOU "
+//    "gmail-user" : 'tvnytc@gmail.com'
+//    "gmail-passwoerd" : 'TVN@yt0517'
+
   }
 
 

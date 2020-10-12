@@ -12,14 +12,14 @@ with open("config.json", "r") as c:
 
 local_server = True
 app = Flask(__name__)
-app.config.update(
-    MAIL_SERVER='smtp.gmail.com',
-    MAIL_PORT='465',
-    MAIL_USE_SSL=True,
-    MAIL_USERNAME=params['gmail-tvnytc@gmail.com'],
-    MAIL_PASSWORD=params['gmail-TVN@yt0517']
-)
-mail = Mail(app)
+# app.config.update(
+#     MAIL_SERVER='smtp.gmail.com',
+#     MAIL_PORT='465',
+#     MAIL_USE_SSL=True,
+#     MAIL_USERNAME=params['gmail-user'],
+#     MAIL_PASSWORD=params['gmail-password']
+# )
+# mail = Mail(app)
 
 if(local_server):
     # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:NEGU@phpma4psc@localhost/aunash'
@@ -38,6 +38,7 @@ class Contact(db.Model):
     email = db.Column(db.String(20),  nullable=False)
     date = db.Column(db.String(12), nullable=True)
     msg = db.Column(db.String(120),  nullable=False)
+
 
 @app.route("/")
 def home():

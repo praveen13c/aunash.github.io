@@ -1,19 +1,18 @@
-
+{
   "params":
   {
     "local_server":"True",
-    "local_uri" : "mysql://root:NEGU@phpma4psc@localhost/aunash",
-    "prod_uri" : "mysql://root:NEGU@phpma4psc@localhost/aunash",
+    "local_uri": "mysql://root:@localhost/aunash",
+    "prod_uri": "mysql://root:@localhost/aunash",
     "fb_url" : "https://facebook.com/praveen13c",
-    "tw_url" : "https://twitter.com/tvnutube",
+    "tw_url" : "https://twitter.com/praveen13c",
     "gh_url" : "https://github.com/praveen13c",
+    "ld_url" : "https://linkedin.com/praveen13c",
     "yt_url" : "https://youtube.com/technologyvideonetwork",
-    "blog_name" : "AUNASH",
-    "sub_heading" : "An Ultimate Site for YOU "
-//    "gmail-user" : 'tvnytc@gmail.com'
-//    "gmail-passwoerd" : 'TVN@yt0517'
-
+    "website_name" : "AUNASH",
+    "home_sub_heading" : "Ultimate site for Various Services",
+    "gmail_user" : "aunash.com@gmail.com",
+    "gmail_password" : "aunash@GMAIL"
   }
-
 
 }
